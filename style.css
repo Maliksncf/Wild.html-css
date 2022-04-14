@@ -1,0 +1,86 @@
+html, body{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    font-family: "Red Hat Display";
+    background: url(pattern-background-desktop.svg) no-repeat center top;
+    background-color: hsl(225, 100%, 94%);
+}
+h3, a{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+    color: rgb(144, 139, 139);
+    margin: 12px;
+}
+.card {
+    box-shadow: 0 8px 8px 0 rgba(180, 178, 178, 0.804);
+    transition: 0.3s;
+    border-radius: 12px; /* 5px rounded corners */
+    height: auto;
+    width: 333px;
+    text-align: center;
+    background-color: white;
+    margin: 60px auto;
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .card-image {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+  }
+
+button{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    padding: 10px 70px 10px 70px;
+    border: none;
+    box-shadow: 0 8px 8px 0 rgba(180, 178, 178, 0.804);
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 15px 10px 21px 10px;
+    border-radius: 12px;
+    height: 16px;
+}
+.change{
+    padding-left: 12px;
+}
+.price{
+    margin-left: -30px;
+}
+.button {
+    margin: 6px;
+}
+.button p{
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.container{
+    margin: 21px;
+}
+button:hover{
+    background-color: #766cf1;
+}
+a:hover{
+    color: #796fd2;
+    text-decoration: none;
+}
+
+.text {
+    padding: 15px;
+}
+h2{
+    padding: 0;
+}
